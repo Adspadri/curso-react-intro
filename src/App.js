@@ -21,7 +21,7 @@ function App() {
     // React.Fragment agrupa elementos sin añadir nodos extra al DOM
     <>
       {/* Componente que muestra el contador de tareas completadas */}
-      <TodoCounter completed={16} total={25} />
+      <TodoCounter completed={0} total={3} />
 
       {/* Componente para buscar tareas */}
       <TodoSearch />
